@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473B8C5F1F905A9200468FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473B8C5E1F905A9200468FC6 /* AppDelegate.swift */; };
+		473B8C611F905A9200468FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473B8C601F905A9200468FC6 /* ViewController.swift */; };
+		473B8C641F905A9200468FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473B8C621F905A9200468FC6 /* Main.storyboard */; };
+		473B8C661F905A9200468FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473B8C651F905A9200468FC6 /* Assets.xcassets */; };
+		473B8C691F905A9200468FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473B8C671F905A9200468FC6 /* LaunchScreen.storyboard */; };
+		5895D40E237F814C5C4ECD12 /* Pods_LuTu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23D9114E4218E6F9CA3DDC0 /* Pods_LuTu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		452FA8287B91C54A52832277 /* Pods-LuTu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuTu.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuTu/Pods-LuTu.release.xcconfig"; sourceTree = "<group>"; };
+		473B8C5B1F905A9200468FC6 /* LuTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		473B8C5E1F905A9200468FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473B8C601F905A9200468FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		473B8C631F905A9200468FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		473B8C651F905A9200468FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		473B8C681F905A9200468FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		473B8C6A1F905A9200468FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473B8C711F90864A00468FC6 /* LuTu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuTu-Bridging-Header.h"; sourceTree = "<group>"; };
+		6338A6CB4CA0FE2C766BC34D /* Pods-LuTu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuTu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuTu/Pods-LuTu.debug.xcconfig"; sourceTree = "<group>"; };
+		E23D9114E4218E6F9CA3DDC0 /* Pods_LuTu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuTu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473B8C581F905A9200468FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5895D40E237F814C5C4ECD12 /* Pods_LuTu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473B8C521F905A9200468FC6 = {
+			isa = PBXGroup;
+			children = (
+				473B8C5D1F905A9200468FC6 /* LuTu */,
+				473B8C5C1F905A9200468FC6 /* Products */,
+				C7B12993E2300FA509CE83C0 /* Pods */,
+				6BCFD61DA45A0515D8F7626D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		473B8C5C1F905A9200468FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473B8C5B1F905A9200468FC6 /* LuTu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		473B8C5D1F905A9200468FC6 /* LuTu */ = {
+			isa = PBXGroup;
+			children = (
+				473B8C701F905DA900468FC6 /* Src */,
+				473B8C5E1F905A9200468FC6 /* AppDelegate.swift */,
+				473B8C601F905A9200468FC6 /* ViewController.swift */,
+				473B8C621F905A9200468FC6 /* Main.storyboard */,
+				473B8C651F905A9200468FC6 /* Assets.xcassets */,
+				473B8C671F905A9200468FC6 /* LaunchScreen.storyboard */,
+				473B8C6A1F905A9200468FC6 /* Info.plist */,
+				473B8C711F90864A00468FC6 /* LuTu-Bridging-Header.h */,
+			);
+			path = LuTu;
+			sourceTree = "<group>";
+		};
+		473B8C701F905DA900468FC6 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		6BCFD61DA45A0515D8F7626D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23D9114E4218E6F9CA3DDC0 /* Pods_LuTu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B12993E2300FA509CE83C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6338A6CB4CA0FE2C766BC34D /* Pods-LuTu.debug.xcconfig */,
+				452FA8287B91C54A52832277 /* Pods-LuTu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473B8C5A1F905A9200468FC6 /* LuTu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473B8C6D1F905A9200468FC6 /* Build configuration list for PBXNativeTarget "LuTu" */;
+			buildPhases = (
+				4E9756D508D3BD3804383FA7 /* [CP] Check Pods Manifest.lock */,
+				473B8C571F905A9200468FC6 /* Sources */,
+				473B8C581F905A9200468FC6 /* Frameworks */,
+				473B8C591F905A9200468FC6 /* Resources */,
+				F3625EA182904CAECD753884 /* [CP] Embed Pods Frameworks */,
+				74FC9D88B7E983CCA08D5BF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuTu;
+			productName = LuTu;
+			productReference = 473B8C5B1F905A9200468FC6 /* LuTu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		473B8C531F905A9200468FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = huheng;
+				TargetAttributes = {
+					473B8C5A1F905A9200468FC6 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 473B8C561F905A9200468FC6 /* Build configuration list for PBXProject "LuTu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473B8C521F905A9200468FC6;
+			productRefGroup = 473B8C5C1F905A9200468FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				473B8C5A1F905A9200468FC6 /* LuTu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473B8C591F905A9200468FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473B8C691F905A9200468FC6 /* LaunchScreen.storyboard in Resources */,
+				473B8C661F905A9200468FC6 /* Assets.xcassets in Resources */,
+				473B8C641F905A9200468FC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E9756D508D3BD3804383FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74FC9D88B7E983CCA08D5BF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuTu/Pods-LuTu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3625EA182904CAECD753884 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuTu/Pods-LuTu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473B8C571F905A9200468FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473B8C611F905A9200468FC6 /* ViewController.swift in Sources */,
+				473B8C5F1F905A9200468FC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		473B8C621F905A9200468FC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473B8C631F905A9200468FC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		473B8C671F905A9200468FC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473B8C681F905A9200468FC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		473B8C6B1F905A9200468FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		473B8C6C1F905A9200468FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		473B8C6E1F905A9200468FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6338A6CB4CA0FE2C766BC34D /* Pods-LuTu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW79S3U69P;
+				INFOPLIST_FILE = LuTu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lutu.henghu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuTu/LuTu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		473B8C6F1F905A9200468FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452FA8287B91C54A52832277 /* Pods-LuTu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW79S3U69P;
+				INFOPLIST_FILE = LuTu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lutu.henghu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LuTu/LuTu-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473B8C561F905A9200468FC6 /* Build configuration list for PBXProject "LuTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473B8C6B1F905A9200468FC6 /* Debug */,
+				473B8C6C1F905A9200468FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473B8C6D1F905A9200468FC6 /* Build configuration list for PBXNativeTarget "LuTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473B8C6E1F905A9200468FC6 /* Debug */,
+				473B8C6F1F905A9200468FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 473B8C531F905A9200468FC6 /* Project object */;
+}
